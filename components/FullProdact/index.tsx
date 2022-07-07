@@ -47,7 +47,7 @@ export const FullProdact: React.FC<any> = ({ items, id }) => {
                 <div className={style.imageBlock}>
                   <Image
                     className={style.img}
-                    src={`/${items.image}`}
+                    src={items.image}
                     width={500}
                     height={400}
                   />
