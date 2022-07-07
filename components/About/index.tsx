@@ -12,10 +12,10 @@ export const About: React.FC = () => {
       <div>
         <div className={style.about}>
           <div className={style.about_text}>
-            <Zoom left cascade>
-              {" "}
+           
+              
               <h3> Our restaurant</h3>
-            </Zoom>
+           
             <div className={style.wrap}>
               
                 <p>
