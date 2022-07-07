@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-scroll";
