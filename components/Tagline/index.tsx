@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React from "react";
 import Flip from "react-reveal/Flip";
 import style from "./styles.module.scss";
