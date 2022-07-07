@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import style from "./styles.module.scss";
 import { selectCartItemById } from "../../store/cart/selectors";
 import { Counter } from "../Counter";
-import Bounce from "react-reveal/Bounce";
+
 
 export const FullProdact: React.FC<any> = ({ items, id }) => {
   const cartItem = useSelector(selectCartItemById(id));
