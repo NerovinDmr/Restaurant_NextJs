@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Classic ratatouille",
       "description": "This moreish Mediterranean-style vegetable stew is perfect for a super-healthy midweek supper",
-      "image": "./images/veg1.webp",
+      "image": "/images/veg1.webp",
       "price": "15",
       "weight": "240"
     },
@@ -12,7 +12,7 @@
       "id": "2",
       "name": "Silky squash risotto",
       "description": "Slow-roasted sweet squash, aromatic marjoram and nutty Parmesan come together to create this oozy, cheesy, sumptuous risotto that’s packed with glorious flavour.",
-      "image": "./images/veg2.webp",
+      "image": "/images/veg2.webp",
       "price": "7",
       "weight": "100"
     },
@@ -20,7 +20,7 @@
       "id": "3",
       "name": "quiche traybake",
       "description": "This genius veggie quiche traybake takes the hassle out of making quiche from scratch.",
-      "image": "./images/veg3.webp",
+      "image": "/images/veg3.webp",
       "price": "32",
       "weight": "500"
     },
@@ -28,7 +28,7 @@
       "id": "4",
       "name": "Glazed carrots",
       "description": "I love doing carrots like this, as the simple flavour combination teamed with the clever cooking technique gives you something that makes you go wow. Carrots are sometimes seen as everyday, but not here – these bad boys are special.",
-      "image": "./images/veg4.webp",
+      "image": "/images/veg4.webp",
       "price": "8",
       "weight": "150"
     },
@@ -36,7 +36,7 @@
       "id": "5",
       "name": "Brussels sprouts",
       "description": "Celebrate the humble sprout with this insanely delicious recipe. Crisp cubes of apple provide beautiful sweetness, while sausage – and Worcestershire sauce (my secret ingredient) – gives a contrasting savoury kick. Serve straight from the pan or make ahead and crisp it all up in the oven on the big day – both ways work!",
-      "image": "./images/veg5.webp",
+      "image": "/images/veg5.webp",
       "price": "12",
       "weight": "320"
     }
@@ -46,7 +46,7 @@
       "id": "6",
       "name": "Banana panettone pudding",
       "description": "STICKY TOFFEE SAUCE",
-      "image": "./images/des1.webp",
+      "image": "/images/des1.webp",
       "price": "4",
       "weight": "50"
     },
@@ -54,7 +54,7 @@
       "id": "7",
       "name": "Strawberry tarte tatin",
       "description": "Light, golden puff pastry with soft juicy fruit and crisp caramel is a brilliant combination. Serve with a scoop of ice cream for the perfect contrast to this warm, sticky pud",
-      "image": "./images/des2.webp",
+      "image": "/images/des2.webp",
       "price": "5",
       "weight": "80"
     },
@@ -62,7 +62,7 @@
       "id": "8",
       "name": "smoothie ice lollies",
       "description": "Summer desserts don’t get much better than this fruity little number – blitz up a batch and leave in the freezer ready for when the sun shines.",
-      "image": "./images/des3.webp",
+      "image": "/images/des3.webp",
       "price": "12",
       "weight": "200"
     },
@@ -70,7 +70,7 @@
       "id": "9",
       "name": "Chocolate & banana French toast",
       "description": "Here’s my beautiful twist on French toast. This could be the most amazing breakfast or brunch, or even turned into dessert with a little scoop of ice cream. Either way, it’s a brilliant thing to make for the one you love, so what are you waiting for? ",
-      "image": "./images/des4.webp",
+      "image": "/images/des4.webp",
       "price": "6",
       "weight": "120"
     },
@@ -78,7 +78,7 @@
       "id": "10",
       "name": "Drizzle bundt cake",
       "description": "TAHINI & YOGHURT SPONGE, POMEGRANATE & ROSE WATER DRIZZLE, PISTACHIO DUST",
-      "image": "./images/des5.webp",
+      "image": "/images/des5.webp",
       "price": "7",
       "weight": "110"
     }
@@ -88,7 +88,7 @@
       "id": "11",
       "name": "Perfect roast beef",
       "description": " COOKED ON LOVELY SEASONAL VEGGIES",
-      "image": "./images/beef1.webp",
+      "image": "/images/beef1.webp",
       "price": 70,
       "weight": "300"
     },
@@ -96,7 +96,7 @@
       "id": "12",
       "name": "A cracking burger",
       "description": "Serve this really tasty, easy homemade burger recipe with your favourite toppings.",
-      "image": "./images/beef2.webp",
+      "image": "/images/beef2.webp",
       "price": 24,
       "weight": "150"
     },
@@ -104,7 +104,7 @@
       "id": "13",
       "name": "Spaghetti Bolognese",
       "description": "This ultimate pasta recipe is a total classic, delicious, and super-easy to knock together",
-      "image": "./images/beef3.webp",
+      "image": "/images/beef3.webp",
       "price": 27,
       "weight": "250"
     },
@@ -112,7 +112,7 @@
       "id": "14",
       "name": "beef bourguignon",
       "description": "BURGUNDY, BACON, BUTTON MUSHROOMS & BABY ONIONS",
-      "image": "./images/beef4.webp",
+      "image": "/images/beef4.webp",
       "price": 30,
       "weight": "350"
     },
@@ -120,7 +120,7 @@
       "id": "15",
       "name": "Roasted rump steak",
       "description": "This meal is such a fantastic reimagining of steak and chips. It allows us to truly enjoy and celebrate the rump cut as a bigger joint, and as the oven does the hard work for you, all the last-minute smoke and stress is removed from the process. This piece of steak is slightly bigger than you need, but it cooks well at this size and is worth it for the leftovers. ",
-      "image": "./images/beef5.webp",
+      "image": "/images/beef5.webp",
       "price": 42,
       "weight": "390"
     },
@@ -128,7 +128,7 @@
       "id": "16",
       "name": "Jamie's flash steak",
       "description": "WITH SALSA PICANTE ",
-      "image": "./images/beef6.webp",
+      "image": "/images/beef6.webp",
       "price": 62,
       "weight": "800"
     }
@@ -138,7 +138,7 @@
       "id": "17",
       "name": "Minestrone soup",
       "description": "This hearty and nutritious minestrone soup is brilliant at embracing what you’ve got",
-      "image": "./images/soup1.webp",
+      "image": "/images/soup1.webp",
       "price": "7",
       "weight": "300"
     },
@@ -146,7 +146,7 @@
       "id": "18",
       "name": "Spiced parsnip soup",
       "description": "There’s something wonderfully comforting about a nice bowl of soup. I’ve served this one with some quick, funky parsnip crisps, garam masala and a swirl of yoghurt and chilli oil. Delicious",
-      "image": "./images/soup2.webp",
+      "image": "/images/soup2.webp",
       "price": "10",
       "weight": "300"
     },
@@ -154,7 +154,7 @@
       "id": "19",
       "name": "tomato soup",
       "description": "The basil oil brings this simple, comforting soup to life – along with some alphabet pasta and a cheeky layer of grated cheese! ",
-      "image": "./images/soup3.webp",
+      "image": "/images/soup3.webp",
       "price": "5",
       "weight": "200"
     },
@@ -162,7 +162,7 @@
       "id": "20",
       "name": "Korean chicken hotpot",
       "description": "This rich and earthy chicken soup packs a proper punch – it's seriously good.",
-      "image": "./images/soup4.webp",
+      "image": "/images/soup4.webp",
       "price": "10",
       "weight": "300"
     },
@@ -170,7 +170,7 @@
       "id": "21",
       "name": "Hot & sour chicken broth",
       "description": "Wonderfully warming and delicious, this punchy broth is simple to make – it's the perfect pick-me-up on a chilly day",
-      "image": "./images/soup5.webp",
+      "image": "/images/soup5.webp",
       "price": "9",
       "weight": "250"
     }
@@ -180,7 +180,7 @@
       "id": "22",
       "name": "Malaysian-style whole fish",
       "description": "It’s really worth sourcing a banana leaf for this spectacular Friday Night sea bass dish. Incredible fragrance, amplified flavour and wonderful texture – it’s a real belter! ",
-      "image": "./images/fish1.webp",
+      "image": "/images/fish1.webp",
       "price": "45",
       "weight": "560"
     },
@@ -188,7 +188,7 @@
       "id": "23",
       "name": "Tuna mapo tofu",
       "description": "Mapo tofu is one of my favourite dishes. The spicy Sichuan ingredients mixed with the minerality and richness of the tuna and the creaminess of the tofu is such a good match",
-      "image": "./images/fish2.webp",
+      "image": "/images/fish2.webp",
       "price": "42",
       "weight": "300"
     },
@@ -196,7 +196,7 @@
       "id": "24",
       "name": "Epic avo & trout on toas",
       "description": "This fresh-flavoured open-style sandwich is a thing of beauty – perfect for lunch on a sunny day.",
-      "image": "./images/fish3.webp",
+      "image": "/images/fish3.webp",
       "price": "15",
       "weight": "200"
     },
@@ -204,7 +204,7 @@
       "id": "25",
       "name": "Sri Lankan fish curry",
       "description": "Cricket super-fan and actor Stephen Mangan’s love of the game has seen him journey to far-flung corners of the Indian Ocean, so I’ve cooked up a traditional Sri Lankan dish to remind him of his travels. It’s a deliciously dry curry, with all the flavour coming from the paste. I’m serving it with an easy yet super-tasty yellow rice and a gorgeously fresh coconut sambal – give it a go!",
-      "image": "./images/fish4.webp",
+      "image": "/images/fish4.webp",
       "price": "25",
       "weight": "250"
     },
@@ -212,7 +212,7 @@
       "id": "26",
       "name": "Seared tuna steak",
       "description": "When buying tuna you should look for meat that is evenly coloured, dark red and has a fine, tight grain free of large sinews",
-      "image": "./images/fish5.webp",
+      "image": "/images/fish5.webp",
       "price": "32",
       "weight": "400"
     }
@@ -222,7 +222,7 @@
       "id": "27",
       "name": "Tahini BBQ lamb",
       "description": " WITH FRESH PLUMS AND SPICED PLUM SAUCE",
-      "image": "./images/grill1.webp",
+      "image": "/images/grill1.webp",
       "price": "51",
       "weight": "370"
     },
@@ -230,7 +230,7 @@
       "id": "28",
       "name": "Saganaki lamb skewers",
       "description": "Saganaki lamb skewers with pickled cabbage",
-      "image": "./images/grill2.webp",
+      "image": "/images/grill2.webp",
       "price": "32",
       "weight": "180"
     },
@@ -238,7 +238,7 @@
       "id": "29",
       "name": "marinated mozzarella",
       "description": "Gooey grilled cheese, crispy bacon, crusty bread – what a combo! This is one genius bbq recipe",
-      "image": "./images/grill3.webp",
+      "image": "/images/grill3.webp",
       "price": "12",
       "weight": "250"
     },
@@ -246,7 +246,7 @@
       "id": "30",
       "name": "Gorgeous rosemary prune skewers",
       "description": "These fragrant kebabs are one of those barbecue recipes you'll keep coming back to again and again",
-      "image": "./images/grill4.webp",
+      "image": "/images/grill4.webp",
       "price": "22",
       "weight": "250"
     },
@@ -254,7 +254,7 @@
       "id": "31",
       "name": "Black & blushing",
       "description": "This is the most delicious barbecued beef I think I’ve ever had (even if I say so myself). Trust me because it’s going to go really dark and look burnt, but it’ll be perfect inside if you do it right.",
-      "image": "./images/grill5.webp",
+      "image": "/images/grill5.webp",
       "price": "60",
       "weight": "750"
     }
@@ -264,7 +264,7 @@
       "id": "32",
       "name": "Creamy Guinness cocktail",
       "description": "This simple Guinness cocktail is a riff on a Guinness punch – it’s like a boozy, rich Baileys",
-      "image": "./images/drinks1.webp",
+      "image": "/images/drinks1.webp",
       "price": "10",
       "weight": "500"
     },
@@ -272,7 +272,7 @@
       "id": "33",
       "name": "Pink pepper negroni",
       "description": "With a kickin' peppery punch, this super-charged festive negroni is a must-try Christmas cocktail. ",
-      "image": "./images/drinks2.webp",
+      "image": "/images/drinks2.webp",
       "price": "12",
       "weight": "500"
     },
@@ -280,7 +280,7 @@
       "id": "34",
       "name": "Manhattan",
       "description": "This is an absolute classic. I make a big batch of this before a party, then pour into chilled martini glasses and garnish as the guests arrive. You don't need to make many though!",
-      "image": "./images/drinks3.webp",
+      "image": "/images/drinks3.webp",
       "price": "15",
       "weight": "350"
     },
@@ -288,7 +288,7 @@
       "id": "35",
       "name": "Mulled wine",
       "description": "Mulled wine, also known as spiced wine, is an alcoholic drink usually made with red wine",
-      "image": "./images/drinks4.webp",
+      "image": "/images/drinks4.webp",
       "price": "15",
       "weight": "350"
     },
@@ -296,7 +296,7 @@
       "id": "36",
       "name": "Christmas pudding vodka",
       "description": "Make festive cocktails with this spicy vodka ",
-      "image": "./images/drinks5.webp",
+      "image": "/images/drinks5.webp",
       "price": "20",
       "weight": "500"
     }
