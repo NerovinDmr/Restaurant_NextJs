@@ -1,11 +1,11 @@
-//@ts-nocheck
+
 import Image from "next/image";
 import React from "react";
 import style from "./styles.module.scss";
 import Onion from "../../public/svgs/Onion";
 import Flash from "../../public/svgs/Flash";
 import Cheef from "../../public/svgs/Cheef";
-import Zoom from "react-reveal/Zoom";
+
 export const About: React.FC = () => {
   return (
     <div className={style.main_wrapp}>
@@ -17,7 +17,7 @@ export const About: React.FC = () => {
               <h3> Our restaurant</h3>
             </Zoom>
             <div className={style.wrap}>
-              <Zoom right cascade>
+              
                 <p>
                   We are located in one of the most picturesque places in the
                   city - on the banks of the river, this is your oasis within
@@ -30,7 +30,7 @@ export const About: React.FC = () => {
                   with a seating for 200 people, a fabulous children's house and
                   swimming pool.
                 </p>
-              </Zoom>
+           
             </div>
           </div>
           <div className={style.about_tags}>
