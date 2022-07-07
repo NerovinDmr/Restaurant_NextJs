@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+.wrapp {
+    width: 1900px;
+  }
+  .itemCard_wrapp {
+   padding-bottom: 10px;
+  //  border: 1px solid red;
+   
+  }
+  .menu_class{
+    border-left: 3px solid $btnColor;
+    margin:40px;
+    h2{
+      font-size: 32px;
+      color: $titleColor;
+      padding-left: 20px;
+    }
+  }
+  

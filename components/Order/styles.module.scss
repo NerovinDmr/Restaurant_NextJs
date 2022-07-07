@@ -1,0 +1,368 @@
+@import "../../styles/variables";
+
+.order {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.back {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  div {
+    font-weight: 700;
+    font-size: 16px;
+    color: $titleColor;
+  }
+}
+.heading {
+  border-left: 3px solid $btnColor;
+  margin-bottom: 40px;
+
+  display: flex;
+  h3 {
+    font-size: 32px;
+    color: $titleColor;
+    padding-left: 20px;
+  }
+  p {
+    font-weight: 500;
+    font-size: 15px;
+    color: $btnColor;
+    align-self: center;
+    margin-left: 15px;
+  }
+}
+// .wrapp {
+//   display: flex;
+//   flex-direction: column;
+//   margin-top: 60px;
+// }
+
+.personCounter {
+  display: flex;
+  .minus {
+    width: 26.97px;
+    height: 26.97px;
+    border-radius: 50%;
+    background-color: $btnColor;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .quantity {
+    margin-left: 13px;
+    margin-right: 13px;
+    color: $titleColor;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .plus {
+    width: 26.97px;
+    height: 26.97px;
+    border-radius: 50%;
+    background-color: $btnColor;
+    text-align: center;
+    align-items: center;
+    line-height: 27px;
+    cursor: pointer;
+  }
+}
+.orderForm {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 54px;
+  flex-wrap: nowrap;
+}
+.contactForm {
+  border-radius: 10px;
+  background-color: $bgColor;
+  height: 200px;
+  padding: 30px;
+}
+.formWrapp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 100%;
+  form {
+    input {
+      margin: 0 0 0 15px;
+      border: 1px solid;
+      border-color: $textColor;
+      height: 60px;
+      width: 47%;
+      border-radius: 10px;
+      background-color: $bgColor;
+    }
+    ::placeholder {
+      padding-left: 30px;
+      color: $textColor;
+    }
+  }
+}
+.formHeading {
+  font-size: 18px;
+  color: $titleColor;
+  margin-left: 5px;
+}
+.deliveryForm {
+  background-color: $bgColor;
+  margin-top: 22px;
+  height: 380px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.radio {
+  display: flex;
+  margin-right: 10px;
+  input[type="radio"] {
+    display: none;
+  }
+  label {
+    display: inline-block;
+    cursor: pointer;
+    width: 180px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid $btnColor;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 30px;
+    color: $titleColor;
+    user-select: none;
+  }
+  input[type="radio"]:checked + label {
+    background: $btnColor;
+  }
+}
+.addresform {
+  margin-top: 30px;
+}
+.deliveryInfo {
+  margin-top: 30px;
+  .street {
+    background-color: $bgColor;
+    border: 1px solid $textColor;
+    width: 60%;
+    height: 60px;
+    border-radius: 10px;
+    &::placeholder {
+      padding-left: 30px;
+      color: $textColor;
+    }
+  }
+}
+.build {
+  margin-left: 15px;
+  background-color: $bgColor;
+  border: 1px solid $textColor;
+  width: 20%;
+  height: 60px;
+  border-radius: 10px;
+  &::placeholder {
+    text-align: center;
+    color: $textColor;
+  }
+}
+.flat {
+  margin-top: 15px;
+  background-color: $bgColor;
+  border: 1px solid $textColor;
+  width: 38%;
+  height: 60px;
+  border-radius: 10px;
+  &::placeholder {
+    padding-left: 30px;
+    color: $textColor;
+  }
+}
+.entrance {
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: $bgColor;
+  border: 1px solid $textColor;
+  width: 20%;
+  height: 60px;
+  border-radius: 10px;
+  &::placeholder {
+    text-align: center;
+    color: $textColor;
+  }
+}
+.floor {
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: $bgColor;
+  border: 1px solid $textColor;
+  width: 20%;
+  height: 60px;
+  border-radius: 10px;
+  &::placeholder {
+    text-align: center;
+    color: $textColor;
+  }
+}
+.paymentForm {
+  margin-top: 30px;
+  background-color: $bgColor;
+  padding: 30px;
+}
+.deliveryOptions {
+  margin-top: 30px;
+}
+.dayTime {
+  width: 30%;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid $textColor;
+  background-color: $bgColor;
+  &::placeholder {
+    text-align: center;
+    color: $textColor;
+  }
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.personCounter {
+  border: 1px solid $textColor;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  width: 40%;
+  height: 50px;
+  div {
+    color: $titleColor;
+    font-size: 16px;
+    align-self: center;
+    margin-right: 15px;
+    margin-left: 12px;
+  }
+}
+.call {
+  margin-top: 30px;
+  .question {
+    font-size: 16px;
+    color: $titleColor;
+  }
+  .answers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    .answer {
+      margin-top: 10px;
+      label {
+        margin-left: 9px;
+        color: $textColor;
+        font-size: 13px;
+      }
+    }
+  }
+}
+.checker {
+  color: $textColor;
+  label {
+    margin-left: 5px;
+  }
+}
+.confirm {
+  background-color: $bgColor;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-around;
+  .btnConfirm {
+    text-align: center;
+    align-self: center;
+    width: 209px;
+    height: 51px;
+    background-color: $btnColor;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: $titleColor;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 875px) {
+  .contactForm {
+    height: auto;
+    form {
+      margin-top: 10px;
+      input {
+        width: 96%;
+      }
+    }
+  }
+  .personCounter {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 555px) {
+  .deliveryForm {
+    height: auto;
+  }
+  .deliveryInfo {
+    display: flex;
+    flex-direction: column;
+    .street {
+      width: 100%;
+      &::placeholder {
+        padding-left: 15px;
+      }
+    }
+    .build {
+      width: 100%;
+      &::placeholder {
+        padding-left: 15px;
+        text-align: left;
+      }
+    }
+    .flat {
+      &::placeholder {
+        padding-left: 15px;
+        text-align: left;
+      }
+    }
+    .entrance {
+      &::placeholder {
+        padding-left: 15;
+        text-align: left;
+      }
+    }
+    .floor {
+      &::placeholder {
+        padding-left: 15px;
+        text-align: left;
+      }
+    }
+    input {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+      text-align: left;
+      &::placeholder {
+        padding-left: 15px;
+      }
+    }
+  }
+  .order {
+    width: 97%;
+  }
+  .orderForm {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .personCounter {
+    width: 100%;
+  }
+}

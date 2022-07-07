@@ -1,0 +1,107 @@
+@import "../../styles/variables";
+
+.fullProdact {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.back {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  div {
+    font-weight: 700;
+    font-size: 16px;
+    color: $titleColor;
+  }
+}
+.prodactCard{
+  margin-top: 40px;
+  display: flex;
+  height: 400px;
+  background-color: $bgColor;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.imageBlock{
+  .img{
+    border-radius: 10px;
+  }
+  
+}
+.infoBlck{
+  margin-left: 50px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  .name{
+    font-size: 25px;
+    color:$titleColor;
+  }
+  .description{
+    font-size: 14px;
+    color: $textColor;
+    margin-top: 30px;
+    width: 80%;
+  }
+  .weight{
+    font-size: 14px;
+    color: $textColor; 
+  }
+}
+.control{
+  display: flex;
+  justify-self: flex-end;
+  margin-bottom: 20px;
+}
+.btn{
+  width: 137px;
+  height: 44px;
+  background-color: $btnColor;
+  border:2px solid transparent;
+  border-radius: 10px;
+  color: $titleColor;
+  cursor: pointer;
+  &:hover{
+    border-color: $textColor;
+  }
+}
+.price{
+  font-size: 25px;
+  color: $titleColor;
+  text-align: center;
+  align-self: center;
+  margin-left: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .prodactCard{
+    height: auto;
+  }
+}
+@media screen and (max-width: 856px) {
+  .prodactCard{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .infoBlck{
+    width: 100%;
+    align-items: center;
+  }
+  .weight{
+margin-top: 10px;
+
+  }
+  .control{
+    margin-top: 30px;
+ 
+  }
+}
+@media screen and (max-width: 425px) {
+.infoBlck{
+  align-items:flex-start
+}
+}

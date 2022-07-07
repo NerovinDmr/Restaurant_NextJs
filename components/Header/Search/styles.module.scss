@@ -1,0 +1,33 @@
+@import "../../../styles/variables";
+ .search_form{
+    display: flex;
+    margin-top: 23px;
+    background-color: $elemColor;
+    border-radius: 10px;
+    width: 500px;
+    height: 52px;
+   justify-content: space-around;
+ }
+.search{
+    width:80%;
+    background-color: $elemColor;
+    border: transparent;
+    &::placeholder{
+      color:$textColor;
+    }
+    
+}
+.location_icon{
+   align-self: center;
+   padding-left: 10px;
+   
+}
+.search_icon{
+    align-self: center;
+    padding-right: 10px ;
+}
+@media screen and (max-width: 950px) {
+  .search_form{
+    display: none;
+  }
+}

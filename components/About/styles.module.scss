@@ -1,0 +1,87 @@
+@import "../../styles/variables";
+.main_wrapp {
+  transform: translateY(100px);
+}
+.about {
+  width: 95%;
+  margin: 0 auto;
+  background-image: url("/images/Mask Group.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.about_text {
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 50px;
+
+  h3 {
+    font-size: 32px;
+    color: $titleColor;
+    padding-bottom: 25px;
+  }
+  .wrap {
+    width: 80%;
+  }
+  p {
+    font-size: 20px;
+    color: $textColor;
+  }
+}
+
+.about_tags {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  padding-top: 85px;
+  padding-bottom: 71px;
+}
+.tags_top {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.tag {
+  width: 220px;
+  background-color: $bgColor;
+  opacity: 0.9;
+  height: 220px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition-duration: 1s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    box-shadow: 0px 12px 30px 4px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 12px 30px 4px rgba(0, 0, 0, 1);
+
+    svg {
+      fill: $btnColor;
+    }
+  }
+  div {
+    color: $titleColor;
+  }
+}
+
+.tags_bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    display: none;
+  }
+}

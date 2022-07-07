@@ -1,0 +1,103 @@
+@import "../../../styles/variables";
+
+.cartItems {
+  width: 100%;
+  display: flex;
+
+  background-color: $bgColor;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+
+  margin-bottom: 5px;
+}
+.name {
+  font-size: 18px;
+  color: $titleColor;
+}
+.wrapp {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.controlSecttion {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  color: $titleColor;
+}
+.remove {
+  width: 26.97px;
+  height: 26.97px;
+  background-color: $btnColor;
+  text-align: center;
+  align-items: center;
+  line-height: 27px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.total {
+  width: 50%;
+  margin: 0 auto;
+  background-color: $bgColor;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.totalPrice {
+  display: flex;
+  font-size: 18px;
+  color: $textColor;
+  div {
+    font-size: 22px;
+    color: $titleColor;
+    margin-left: 10px;
+  }
+}
+.deliveryPrice {
+  color: $titleColor;
+  font-size: 14px;
+  margin-bottom: 11px;
+}
+.minimalSumm {
+  color: $titleColor;
+  font-size: 14px;
+}
+.btn {
+  display: flex;
+}
+.orderBtn {
+  text-align: center;
+  align-self: center;
+  width: 209px;
+  height: 51px;
+  background-color: $btnColor;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: $titleColor;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapp {
+    flex-direction: column;
+  }
+  .controlSecttion {
+    width: 100%;
+  }
+  .name {
+    margin-bottom: 20px;
+  }
+}

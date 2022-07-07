@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.counter {
+  display: flex;
+  .minus {
+    width: 26.97px;
+    height: 26.97px;
+    border-radius: 50%;
+    background-color: $btnColor;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .quantity {
+    margin-left: 13px;
+    margin-right: 13px;
+    color: $titleColor;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .plus {
+    width: 26.97px;
+    height: 26.97px;
+    border-radius: 50%;
+    background-color: $btnColor;
+    text-align: center;
+    align-items: center;
+    line-height: 27px;
+    cursor: pointer;
+  }
+}

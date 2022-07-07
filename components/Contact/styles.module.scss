@@ -1,0 +1,128 @@
+@import "../../styles/variables";
+
+.contacts {
+  background-image: url("/images/Map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 700px;
+  overflow: auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 526px;
+  height: 405px;
+  background-color: #2e2b2c;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.header {
+  font-size: 30px;
+  color: $titleColor;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(249, 250, 249, 0.151) 50%,
+    rgba(246, 246, 246, 0) 100%
+  );
+  margin-top: 25px;
+}
+.top {
+  margin-top: 20px;
+  display: flex;
+}
+
+.contactIfo {
+  margin-left: 15px;
+  &_name {
+    font-size: 14px;
+    color: $textColor;
+  }
+  &_info {
+    margin-top: 7px;
+    font-size: 16px;
+    color: $titleColor;
+  }
+}
+.bottom {
+  margin-top: 20px;
+  display: flex;
+}
+.reserve {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  button {
+    width: 211px;
+    height: 59px;
+    background-color: $btnColor;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: $titleColor;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+      border-color: $textColor;
+    }
+  }
+}
+.callUs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 23px;
+  margin-top: 10px;
+}
+.number {
+  font-weight: 700;
+  font-size: 23px;
+  color: $titleColor;
+  a {
+    color: $titleColor;
+  }
+}
+.note {
+  font-weight: 400;
+  font-size: 13px;
+  color: $textColor;
+}
+.social {
+  display: flex;
+  margin: 0 auto;
+
+  margin-top: 30px;
+
+  div {
+    color: $titleColor;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  &_links {
+    display: flex;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 677px) {
+  .form {
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .form {
+    width: 320px;
+    height: 500px;
+  }
+  .reserve {
+    flex-direction: column;
+  }
+}

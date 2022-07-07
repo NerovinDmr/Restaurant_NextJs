@@ -1,0 +1,56 @@
+@import "../../styles/variables";
+
+.showcase {
+  background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+  overflow-x: hidden;
+  a{
+    display: block;
+    color: $textColor;
+    height: 100%;
+    width: 100%;
+  
+  }
+}
+.wrapp{
+  width: 1900px;
+}
+.menu {
+  display: flex;
+  
+  &_items {
+    font-size: 18px;
+    border-bottom: 3px solid transparent;
+    padding: 29px;
+    cursor: pointer;
+    text-align: center;
+    
+    &:hover {
+      border-color: $btnColor;
+    }
+    
+  }
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(249, 250, 249, 0.151) 50%,
+    rgba(246, 246, 246, 0) 100%
+  );
+}
+
+@media screen and (max-width: 738px) {
+  .menu{
+    &_items{
+      padding-left: 0;
+    }
+  }
+  
+}
+@media screen and (max-width: 618px) {
+  // .slide{
+  //   width: 140px !important;
+  // }
+}

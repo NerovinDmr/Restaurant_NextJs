@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.emptyCartWrapp{
+  width: 80%;
+  margin: 0 auto;
+  height: 400px;
+  justify-content: center;
+    display: flex;
+}
+.emptyCart{
+display: flex;
+align-items: center;
+justify-content: center;
+div{
+  font-size: 23px;
+  text-align: center;
+  color:$btnColor;
+}
+}

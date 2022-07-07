@@ -1,0 +1,114 @@
+@import "../../styles/variables";
+
+.cart {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.back {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  div {
+    font-weight: 700;
+    font-size: 16px;
+    color: $titleColor;
+  }
+}
+.heading {
+  border-left: 3px solid $btnColor;
+  margin-top: 40px;
+  display: flex;
+  h3 {
+    font-size: 32px;
+    color: $titleColor;
+    padding-left: 20px;
+  }
+  p {
+    font-weight: 500;
+    font-size: 15px;
+    color: $btnColor;
+    align-self: center;
+    margin-left: 15px;
+  }
+}
+.wrapp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.total {
+  width: 50%;
+  margin: 0 auto;
+  background-color: $bgColor;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.totalPrice {
+  display: flex;
+  font-size: 18px;
+  color: $textColor;
+  div {
+    font-size: 22px;
+    color: $titleColor;
+    margin-left: 10px;
+  }
+}
+.deliveryPrice {
+  color: $titleColor;
+  font-size: 14px;
+  margin-bottom: 11px;
+}
+.minimalSumm {
+  color: $titleColor;
+  font-size: 14px;
+}
+.btn {
+  display: flex;
+}
+.orderBtn {
+  text-align: center;
+  align-self: center;
+  width: 209px;
+  height: 51px;
+  background-color: $btnColor;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: $titleColor;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  &:disabled {
+    opacity: 0.5;
+    background-color: grey;
+    border: 1px solid $btnColor;
+    color: $textColor;
+    cursor: not-allowed;
+  }
+}
+
+@media screen and (max-width: 1093px) {
+  .total {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 535px) {
+  .total {
+    flex-direction: column;
+    align-items: center;
+  }
+  .orderBtn {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .cart {
+    width: 97%;
+  }
+}
