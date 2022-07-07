@@ -20,7 +20,7 @@ export const FullProdact: React.FC<any> = ({ items, id }) => {
         <Link href={"/"}>
           <div className={style.back}>
             <div className={style.icon}>
-              <Image src="/images/ArrowBack.svg" width={12} height={12} />
+              <img src="/images/ArrowBack.svg" width={12} height={12} />
             </div>
             <div>Back</div>
           </div>
