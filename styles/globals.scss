@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+html {
+  background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+}
+body{
+  max-width: 1920px;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+input {
+  outline: none;
+  color: #cfcfcf;
+  padding-left: 10px;
+}
