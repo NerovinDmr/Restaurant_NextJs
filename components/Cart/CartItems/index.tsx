@@ -23,7 +23,7 @@ export const CartItems: React.FC<CartItem> = ({
   return (
     <div className={style.cartItems}>
       <div className={style.image}>
-        <Image src={`/${image}`} width={117} height={86} />
+        <Image src={image} width={117} height={86} />
       </div>
       <div className={style.wrapp}>
         <div className={style.name}>{name}</div>
